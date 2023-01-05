@@ -1,0 +1,18 @@
+# az ad sp create-for-rbac --name "myApp" --role contributor --scopes /subscriptions/ed79e085-c3c6-4c79-ad2e-bc0357267db3 --sdk-auth 
+Option '--sdk-auth' has been deprecated and will be removed in a future release.                                                     
+Found an existing application instance: (id) 27eeb55a-8888-4b9f-a1e0-83826e2f09f4. We will patch it.                                 
+Creating 'contributor' role assignment under scope '/subscriptions/ed79e085-c3c6-4c79-ad2e-bc0357267db3'                             
+The output includes credentials that you must protect. Be sure that you do not include these credentials in your code or check the cr
+edentials into your source control. For more information, see https://aka.ms/azadsp-cli                                              
+{                                                                                                                                    
+  "clientId": "3847d8de-ae9d-4587-be87-0c289b00bade",                                                                                
+  "clientSecret": "red8Q~46YmcuEN1SZTgmO1xEHy6KmlIs8-d2sdBQ",                                                                        
+  "subscriptionId": "ed79e085-c3c6-4c79-ad2e-bc0357267db3",                                                                          
+  "tenantId": "5a461639-3363-4bf7-a772-06ccff1d9872",                                                                                
+  "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",                                                                 
+  "resourceManagerEndpointUrl": "https://management.azure.com/",                                                                     
+  "activeDirectoryGraphResourceId": "https://graph.windows.net/",                                                                    
+  "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",                                                           
+  "galleryEndpointUrl": "https://gallery.azure.com/",                                                                                
+  "managementEndpointUrl": "https://management.core.windows.net/"                                                                    
+}                                                                                                                                    
